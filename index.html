@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+body{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+}
+nav button {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+#content {
+    padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="homeBtn">Home</button>
+            <button id="menuBtn">Menu</button>
+            <button id="aboutBtn">About</button>
+        </nav>
+    </header>
+    <div id="content"></div>
+    <script src="bundle.js"></script>
+</body>
+</html>
